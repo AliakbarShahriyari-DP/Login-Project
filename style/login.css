@@ -1,0 +1,120 @@
+@font-face{
+    font-family: "Vazir";
+    src: url("../font/ttf/Vazirmatn-Bold.ttf") format("truetype");
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../image/large_724d76a1-f873-486f-ac35-e8b71636ace7.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: "Vazir";
+    font-size: 18px;
+}
+.container{
+    background-color: rgba(0, 0, 0, 0.30);
+    width: 345px;
+    height: 460px;
+    margin: 100px auto;
+    padding: 40px 20px;
+    position: relative;
+    border-radius: 8px;
+}
+.h{
+    text-align: center;
+}
+h2{
+    color: white;
+    letter-spacing: 5px;
+}
+label{
+    display: block;
+    color: white;
+}
+::placeholder{
+    color: #9E9E9E;
+    font-size: 16px;
+}
+.user{
+    display: block;
+    background-color: transparent;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid white;
+    width: 300px;
+    font-size: 19px;
+    color: white;
+    font-family: "Vazir";
+    transition: all 200ms ease-in;
+}
+.user:focus{
+    outline: none;
+    transform: scale(1.02);
+}
+.p{
+    display: block;
+    background-color: transparent;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid white;
+    width: 300px;
+    font-size: 19px;
+    color: white;
+    font-family: "Vazir";
+    transition: all 200ms ease-in;
+}
+.p:focus{
+    outline: none;
+    transform: scale(1.02);
+}
+.userb{
+    margin-top: 10px;
+}
+.userc{
+    margin-top: 30px;
+}
+.s{
+    display: block;
+    width: 295px;
+    height: 34px;
+    margin-top: 40px;
+    background-color: #1976D2;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    text-align: center;
+    padding: 3px 0;
+    font-family: "Vazir";
+    transition: all 100ms ease ;
+}
+.s:active{
+    transform: scale(0.98);
+}
+.link{
+    margin-top: 18px;
+    font-size: 14px;
+    letter-spacing: 1.1px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.icon{
+    width: 65px;
+    height: 65px;
+    border-radius: 100%;
+    background-color: #1565C0;
+    text-align: center;
+    padding: 4px 0;
+    position: absolute;
+    top: -32px;
+    right: 145px;
+}
+svg{
+    width: 50px;
+    height: 50px;
+    color: white;
+}

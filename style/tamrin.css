@@ -1,0 +1,71 @@
+@font-face{
+    font-family: "Vazir";
+    src: url("../font/ttf/Vazirmatn-Bold.ttf") format("truetype");
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: blueviolet;
+    font-size: 16px;
+    font-family: "Vazir";
+}
+.container{
+    width: 720px;
+    height: 70px;
+    background-color: #FFA000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 8px;
+    padding: 0 5px;
+}
+.link{
+    display: flex;
+    gap: 20px;
+}
+a{
+    color: #3F51B5;
+    text-decoration: none;
+}
+.first-link{
+    color: white;
+    background-color: #3F51B5;
+    border-radius: 10px;
+    display: block;
+    width: 95px;
+    height: 30px;
+    text-align: center;
+    padding-top: 4px;
+}
+input{
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    color: white;
+    background-color: #3F51B5;
+    border: none;
+    border-radius: 10px;
+    padding: 0 4px;
+}
+::placeholder{
+    color: #ffffff;
+}
+input:focus{
+    outline: 2px solid white;
+}
+/* svg{
+    width: 20px;
+    height: 20px;
+}
+.search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+
